@@ -1,14 +1,17 @@
-import { Schema } from 'mongoose'; 
+import { Schema } from "mongoose";
 
-interface Answer {
-    text: string;
-    isCorrect: boolean;
+// Define Answer, Question and Quiz types matching the application's data structure
+export interface Answer {
+  text: string;
+  isCorrect: boolean;
 }
-
-interface Question {
-    _id: Schema.Types.ObjectId;
-    question: string;
-    answers: Answer[];
+export interface Question {
+  _id: string;
+  question: string;
+  answers: Answer[];
 }
-
-export type { Answer, Question };
+export interface Quiz {
+  _id: Schema.Types.ObjectId;
+  question: Question[];
+  answer: string[];
+}
