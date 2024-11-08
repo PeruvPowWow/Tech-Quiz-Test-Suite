@@ -11,4 +11,4 @@ const cleanDB = async (): Promise<void> => {
   }
 };
 
-export default cleanDB;
+export default cleanDB
