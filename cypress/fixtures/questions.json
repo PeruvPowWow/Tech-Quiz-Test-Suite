@@ -1,22 +1,27 @@
-[
-    {
-      "_id": "5f0b5d7b9b1f1b0017f6b3b1",
-      "question": "Pick THE correct answer...",
-      "answers": [
-        { "text": "Not this one.", "isCorrect": false },
-        { "text": "PICK ME!", "isCorrect": true },
-        { "text": "Definitely not this one.", "isCorrect": false },
-        { "text": "Don't pick me.", "isCorrect": false }
-      ]
-    },
-    {
-      "_id": "5f0b5d7b9b1f1b0017f6b3b2",
-      "question": "Pick ANOTHER correct answer...",
-      "answers": [
-        { "text": "Not it!", "isCorrect": false },
-        { "text": "Hard pass.", "isCorrect": false },
-        { "text": "Keep going...", "isCorrect": false },
-        { "text": "MEEEEE!!!", "isCorrect": true }
-      ]
-    }
+[{
+  "question": "What is the output of print(2 ** 3)?",
+  "answers": [
+    { "text": "6", "isCorrect": false },
+    { "text": "8", "isCorrect": true },
+    { "text": "9", "isCorrect": false },
+    { "text": "12", "isCorrect": false }
   ]
+},
+{
+  "question": "Which of the following is a mutable data type in Python?",
+  "answers": [
+    { "text": "str", "isCorrect": false },
+    { "text": "tuple", "isCorrect": false },
+    { "text": "list", "isCorrect": true },
+    { "text": "int", "isCorrect": false }
+  ]
+},
+{
+  "question": "What is the keyword used to define a function in Python?",
+  "answers": [
+      { "text": "function", "isCorrect": false },
+      { "text": "func", "isCorrect": false },
+      { "text": "def", "isCorrect": true },
+      { "text": "define", "isCorrect": false }
+  ]
+}]
