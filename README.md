@@ -119,4 +119,8 @@ My Email Address: pedro.chipana94@gmail.com
 
 You can contact me using my Github link or via Email if you have any questions about Tech-Quiz-Test-Suite
 
+## Application Images
+
+![Applicaiton Image for Tech Quiz] (./assets/screenshot.png)
+
 --
