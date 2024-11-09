@@ -121,6 +121,6 @@ You can contact me using my Github link or via Email if you have any questions a
 
 ## Application Images
 
-![Applicaiton Image for Tech Quiz] (./assets/screenshot.png)
+![Tech] (./assets/screenshot.png)
 
 --
