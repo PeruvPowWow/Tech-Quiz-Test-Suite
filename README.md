@@ -30,7 +30,7 @@ These steps are used to install and start the application:
 
 1. Clone the Repository:
 ``bash``
-git clone git@github.com:Runnerrupert/Quiz-Testing.git
+git clone git@github.com:PeruvPowWow/Tech-Quiz-Test-Suite.git
 ``bash``
 
 2. Navigate to the Project Directory:
