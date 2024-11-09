@@ -29,41 +29,41 @@ This project is designed as a Python quiz with multiple-choice questions. It als
 These steps are used to install and start the application:
 
 1. Clone the Repository:
-``bash``
+```bash
 git clone git@github.com:PeruvPowWow/Tech-Quiz-Test-Suite.git
-``bash``
+```
 
 2. Navigate to the Project Directory:
-``bash``
+```bash
 cd your-repository
-``bash``
+```
 
 3. Install Dependencies:
-``bash ``
+```bash
 npm install
-``bash``
+```
 
 4. Build Application:
-``bash``
+```bash
 npm run build
-``bash``
+```
 
 5. Start the Application:
-``bash``
+```bash
 npm run start:dev
-``bash``
+```
 
 6. Check the webpage with this URL:
-``bash``
+```bash
 http://localhost:3001
-``bash``
+```
 
 ## Usage
 
 Start Cypress for Component Testing:
-``bash``
+```bash
 npm run cypress
-``bash``
+```
 
 - You will be given two options, E2E Testing and Component Testing .
 - Select Component Testing.
@@ -77,14 +77,14 @@ Start Cypress for E2E Testing:
 You will need two terminals open for end to end testing.
 
 In the first console, run this command:
-``bash``
+```bash
 npm run start:dev
-``bash``
+```
 
 In the second console, run this command:
-``bash``
+```bash
 npm run cypress
-``bash``
+```
 
 - Leave the server running in http://localhost:3001. This is needed for E2E Testing.
 - Within the Cypress GUI, select E2E Testing.
