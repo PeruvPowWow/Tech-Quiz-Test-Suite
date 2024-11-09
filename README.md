@@ -58,47 +58,65 @@ npm run start:dev
 http://localhost:3001
 ``bash``
 
-Usage
-Start Cypress for Component Testing:
+## Usage
 
+Start Cypress for Component Testing:
+``bash``
 npm run cypress
-You will be given two options, E2E Testing and Component Testing .
-Select Component Testing.
-Choose whichever browser you desire.
-Select "Quiz" under cypress\component
-Each test will run and you will see a corrisponding result, success or failure.
-You can also view each test by selecting each respectively.
+``bash``
+
+- You will be given two options, E2E Testing and Component Testing .
+- Select Component Testing.
+- Choose whichever browser you desire.
+- Select "Quiz" under cypress\component
+- Each test will run and you will see a corrisponding result, success or failure.
+- You can also view each test by selecting each respectively.
+
 Start Cypress for E2E Testing:
 
 You will need two terminals open for end to end testing.
 
 In the first console, run this command:
-
+``bash``
 npm run start:dev
-In the second console, run this command:
+``bash``
 
+In the second console, run this command:
+``bash``
 npm run cypress
-Leave the server running in http://localhost:3001. This is needed for E2E Testing.
-Within the Cypress GUI, select E2E Testing.
-Choose whichever browser you desire.
-Select "Quiz" under cypress\component
-Each test will run and you will see a corrisponding result, success or failure.
-You can also view each test by selecting each respectively.
-License
-For more information about the MIT license, use this link! https://memgraph.com/blog/what-is-mit-license
+``bash``
+
+- Leave the server running in http://localhost:3001. This is needed for E2E Testing.
+- Within the Cypress GUI, select E2E Testing.
+- Choose whichever browser you desire.
+- Select "Quiz" under cypress\component
+- Each test will run and you will see a corrisponding result, success or failure.
+- You can also view each test by selecting each respectively.
+
+## License
+
+For more information about the MIT license, this will be the link to use https://memgraph.com/blog/what-is-mit-license
 
 For a better understanding, I give you permission to use, copy, modify, distribute and sell copies at your own discretion.
 
-Contributors
-University Of Utah Coding Bootcamp and Cameron Barfuss
+## Future Improvements
 
-Specifically, The coding bootcamp has taught different code practices to use to be able to create a functioning testing environment, I wrote the code for all of the testing, the actual website alongside any functionality was written by the University of Utah Coding Bootcamp.
+- Add more quiz questions to increase engagement.
+- Implement a timer for each question to add a challenge.
+- Save quiz scores using local storage or a database for user tracking.
+- Improve accessibility with better screen reader support and keyboard navigation.
 
-Questions
-My Github: https://github.com/Runnerrupert
+## Conclusion
 
-My Email Address: Cameron.barfuss@gmail.com
+This Python quiz project not only offers an engaging way to test programming knowledge but also serves as a practical demonstration of automated testing with Cypress. The repository showcases how testing can be effectively integrated into development workflows for reliable software delivery.
 
-You can contact me using my Github link or via Email if you have any questions about Quiz-Testing.
+
+## Questions
+
+My Github: https://github.com/PeruvPowWow
+
+My Email Address: pedro.chipana94@gmail.com
+
+You can contact me using my Github link or via Email if you have any questions about Tech-Quiz-Test-Suite
 
 --
